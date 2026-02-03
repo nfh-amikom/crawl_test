@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Crawl4AI Extension",
+  "version": "1.0",
+  "description": "Crawl current page using FastAPI + crawl4ai",
+  "permissions": ["activeTab"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
